@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>teleport-tsh</id>
+    <version>7.1.2</version>
+    <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>
+    <title>teleport-tsh (Install)</title>
+    <authors>Robert Rettig</authors>
+    <projectUrl>https://goteleport.com/teleport</projectUrl>
+    <iconUrl>https://goteleport.com/favicon.ico</iconUrl>
+    <copyright>2021 Gravitational Inc.; all rights reserved.</copyright>
+    <licenseUrl>https://github.com/gravitational/teleport/tree/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/gravitational/teleport</projectSourceUrl>
+    <docsUrl>https://goteleport.com/docs/getting-started/</docsUrl>
+    <bugTrackerUrl>https://github.com/gravitational/teleport/issues</bugTrackerUrl>
+    <tags>teleport tsh</tags>
+    <summary>Access Computing Resources Anywhere</summary>
+    <description>Teleport allows engineers and security professionals to unify access for SSH servers, Kubernetes clusters, web applications, and databases across all environments.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
