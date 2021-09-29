@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://get.gravitational.com/teleport-v7.1.3-windows-amd64-bin.zip'
+$url64      = 'https://get.gravitational.com/teleport-v7.2.0-windows-amd64-bin.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
