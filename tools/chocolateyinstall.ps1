@@ -1,14 +1,14 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://get.gravitational.com/teleport-v8.3.7-windows-amd64-bin.zip'
+$url64      = 'https://get.gravitational.com/teleport-v9.0.4-windows-amd64-bin.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   url64bit      = $url64
   softwareName  = 'teleport-tsh*'
-  checksum64    = '642dd9745437cfc2248f59d54c68fbe52087789df5d8cad0729e2719acff938e'
+  checksum64    = '4a4f8b6bd5d5e7e8b04982a11cba7eb83c4d58856d82ac731c99333d644859e1'
   checksumType64= 'sha256'
 }
 
