@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>teleport-tsh</id>
-    <version>9.1.3</version>
+    <version>9.2.4</version>
     <packageSourceUrl>https://github.com/ndgit/chocolatey-teleport-tsh</packageSourceUrl>
     <owners>flybyray</owners>
     <title>teleport-tsh (Install)</title>
